@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    password: 123456
+    username: root
+    url: jdbc:mysql://localhost:3306/sg_security?characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: 47.109.110.7
+    port: 6379
+    password: wyb17780902277
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
